@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ad-prediction-system/static/css/main.d0cb97e1.css",
-    "main.js": "/ad-prediction-system/static/js/main.877f3e2d.js",
+    "main.css": "/ad-prediction-system/static/css/main.284c8c56.css",
+    "main.js": "/ad-prediction-system/static/js/main.bfdad603.js",
     "static/media/brain-regions.png": "/ad-prediction-system/static/media/brain-regions.ef5c571685b31513e487.png",
     "static/media/sagittal-plane.jpg": "/ad-prediction-system/static/media/sagittal-plane.bb4394821a1ad397e570.jpg",
     "static/media/coronal-plane.jpg": "/ad-prediction-system/static/media/coronal-plane.037d42cfeea8bd233da2.jpg",
@@ -9,11 +9,11 @@
     "static/media/mixture-graph.png": "/ad-prediction-system/static/media/mixture-graph.2b3a06a92775073d2813.png",
     "static/media/probability-graph.png": "/ad-prediction-system/static/media/probability-graph.d677eb96cc74dd824478.png",
     "index.html": "/ad-prediction-system/index.html",
-    "main.d0cb97e1.css.map": "/ad-prediction-system/static/css/main.d0cb97e1.css.map",
-    "main.877f3e2d.js.map": "/ad-prediction-system/static/js/main.877f3e2d.js.map"
+    "main.284c8c56.css.map": "/ad-prediction-system/static/css/main.284c8c56.css.map",
+    "main.bfdad603.js.map": "/ad-prediction-system/static/js/main.bfdad603.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0cb97e1.css",
-    "static/js/main.877f3e2d.js"
+    "static/css/main.284c8c56.css",
+    "static/js/main.bfdad603.js"
   ]
 }
