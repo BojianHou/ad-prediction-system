@@ -136,7 +136,7 @@ const ADPredictionDashboard = () => {
           </div>
         </div>
         
-        <div className="bg-white p-4 rounded-lg shadow">
+        {/* <div className="bg-white p-4 rounded-lg shadow">
           <h2 className="text-xl font-semibold mb-4">Interpretable Prognosis Results</h2>
           <img src={brainRegions} alt="Brain regions" className="w-full mb-4" />
           <img src={mixtureGraph} alt="Mixture graph" className="ml-2 w-20 h-20" />
@@ -151,7 +151,27 @@ const ADPredictionDashboard = () => {
               <p className="text-2xl font-bold text-center">{riskOfAD} (high)</p>
             </div>
           </div>
+        </div> */}
+        {/* Interpretable Prognosis Results Panel */}
+        <div className="bg-white p-4 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-4">Interpretable Prognosis Results</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <img src={brainRegions} alt="Brain regions" className="w-full col-span-2" />
+            <img src={mixtureGraph} alt="Mixture graph" className="w-full" />
+            <img src={probabilityGraph} alt="Probability graph" className="w-full" />
+          </div>
+          <div className="grid grid-cols-2 gap-4 mt-4">
+            <div>
+              <h3 className="font-semibold">Year</h3>
+              <p className="text-2xl font-bold text-center">{prognosisYear}</p>
+            </div>
+            <div>
+              <h3 className="font-semibold">Risk of AD</h3>
+              <p className="text-2xl font-bold text-center">{riskOfAD} (high)</p>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   );
